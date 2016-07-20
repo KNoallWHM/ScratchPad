@@ -27,7 +27,7 @@ public class loops {
         // for loops: Execute a sequence of statements multiple times and abbreviates the code that manages the loop variable.
         public void forLoop() {
             for(int i = 0; i < numbers.length; i++) {
-                System.out.println("The number is: "+numbers[i]);
+                    System.out.println("The number is: "+numbers[i]);
             }
         }
 
