@@ -7,7 +7,7 @@ public class Singleton {
     private static Singleton instance = null;
 
     private Singleton() {
-        // Exists only to defeat instantiation.
+        // private will be used to defeat instantiation.
     }
     public static synchronized Singleton getInstance() {
         if(instance == null) {
