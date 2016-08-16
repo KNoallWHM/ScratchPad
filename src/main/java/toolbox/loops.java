@@ -40,7 +40,7 @@ public class loops {
 
 
         //do-while loops: Like a while statement, except that it tests the condition at the end of the loop body
-        public void doWileLoop() {
+        public void doWhileLoop() {
             int i = 0;
             do {
                 System.out.println("The number is: " + numbers[i]);
